@@ -24,7 +24,7 @@
             android:layout_height="60dp"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:text="test@test.fr" />
 
         <TextView
             android:id="@+id/textView2"
@@ -38,21 +38,22 @@
             android:layout_height="58dp"
             android:ems="10"
             android:hint="frfrfrfrfrfrf"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:text="test@test.fr" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="signup"
-            android:text="Button" />
+            android:text="signup" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="middle"
-            android:text="Button" />
+            android:text="Login" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
